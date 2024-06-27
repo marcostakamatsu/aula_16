@@ -51,8 +51,9 @@ body {
     display: flex;
     flex-wrap: wrap;
     /* align-items: flex-end; */
-    justify-content: center;
+    /* justify-content: center; */
     align-items: baseline;
+    align-content: flex-end;
     padding: 10px;
     margin-top: 50px;
 }
@@ -70,6 +71,8 @@ body {
     background-color: #b3cde0;
     width: 100px;
     height: 100px;
+    order: 1;
+    
 }
 
 #item2 {
